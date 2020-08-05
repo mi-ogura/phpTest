@@ -75,8 +75,7 @@ echo "<br>";
 //time,date, mktime:UNIXタイムスタンプを取得する事ができる関数
 //mkdir ・現在の日時を取得
 echo date('Y/m/d', time());
- 
-echo "<br>";
+ echo "<br>";
  
 //・3日後のタイムスタンプを取得
 $nweek = time() + (3 * 24 * 60 * 60);
